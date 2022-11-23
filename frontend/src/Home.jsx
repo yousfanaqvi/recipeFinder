@@ -5,7 +5,7 @@ import axios from "axios";
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Unstable_Grid2';
 import TextField from '@mui/material/TextField';
-import "./home.css"
+import "./home.css";
 
 
 function Home() {
