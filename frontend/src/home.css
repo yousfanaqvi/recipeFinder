@@ -4,7 +4,7 @@
     text-align: center;
     align-items: center;
     width: 100vw;
-    background-image:url(../assets/bg2.jpeg);
+    background-image:url(./assets/bg2.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;    
@@ -180,7 +180,7 @@
     }
     .home-container{
         padding: 0.5rem;
-        background-image:url(../assets/bg2Phone.jpeg);
+        background-image:url(./assets/bg2Phone.jpeg);
 
     }
     

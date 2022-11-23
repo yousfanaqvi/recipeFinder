@@ -3,6 +3,7 @@ import axios from "axios";
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Unstable_Grid2';
 import TextareaAutosize from '@mui/material/TextareaAutosize';
+import bg from "./assets/bg5-min.jpeg"
 import { useNavigate } from 'react-router-dom';
 import "./recipeByIng.css"
 function RecipeByIng() {
@@ -29,7 +30,7 @@ function RecipeByIng() {
     <Box sx={{ flexGrow: 1 }} >
         <Grid container  >
         <Grid xs={12} md={12} lg={12}>
-        <div className='byIngredient-container'>
+        <div className='byIngredient-container' style={{backgroundImage: `url(${bg})`}}>
         <h1>Search Recipes by Ingredients</h1>
         <p>
           Ever wondered what recipes you can cook with the <span className='highlight-text'>ingredients</span> you have in your fridge or pantry? <br/>
