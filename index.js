@@ -1,11 +1,16 @@
 require('dotenv').config()
 const express = require("express");
 const app = express();
+const axios =require('axios') 
 const path = require("path");
+const logger = require("morgan");
 const cors = require("cors");
+app.use(logger("dev"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cors());
+
+
 
 app.use(express.static(path.join(__dirname, "./frontend/build")));
 
