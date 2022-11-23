@@ -1,5 +1,5 @@
 .byIngredient-container{
-    /* background-image:url(../assets/bg5-min.jpeg); */
+    background-image:url(../assets/bg5-min.jpeg);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -51,7 +51,7 @@
     color: rgb(238, 18, 18);
 }
 .byIngDetail-container{
-    background-image:url(./assets/bg7.jpg);
+    background-image:url(../assets/bg7.jpg);
     display: flex;
     flex-direction: column;
     align-items: center;
