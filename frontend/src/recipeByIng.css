@@ -9,10 +9,11 @@
     background-repeat: no-repeat;
     background-size: cover;    
     background-attachment: fixed;
+    width: 100vw;
     
 }
 .byIngredient-container>h1{
-    margin-top: 4rem;
+    padding-top: 4rem;
 }
 .byIngredient-container>p{
     font-size: 20px;
