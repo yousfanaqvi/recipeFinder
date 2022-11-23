@@ -3,16 +3,17 @@
     flex-direction: column;
     align-items: center;
     text-align: center; 
-    height: 100vh;
+    min-height: 100vh;
     background-image:url(../assets/bg5.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;    
     background-attachment: fixed;
-    padding-top: 3rem;
     
 }
-
+.byIngredient-container>h1{
+    margin-top: 4rem;
+}
 .byIngredient-container>p{
     font-size: 20px;
     text-align: center;
@@ -23,7 +24,7 @@
 }
 .ingredient-form{
     font-size: 22px;
-    background-color: rgb(214, 132, 10);
+    background-color: rgba(235, 128, 28, 0.719);
     padding: 1rem;
     display: flex;
     flex-direction: column;
@@ -40,7 +41,7 @@
     font-size: 16px;
     letter-spacing: 1px;
     font-family: 'Lato', sans-serif;
-    color: white;
+    
 
 }
 .highlight-text{

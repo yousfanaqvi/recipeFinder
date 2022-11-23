@@ -9,9 +9,7 @@
     background-repeat: no-repeat;
     background-size: cover;    
     background-attachment: fixed;
-    min-height: 100vh;
-    /* position: fixed; */
-   
+    min-height: 100vh;   
 }
 
 .heading{
@@ -182,9 +180,6 @@
     }
     .home-container{
         padding: 0.5rem;
-    }
-    .heading{
-        margin-top: 5rem;
     }
     
   }
