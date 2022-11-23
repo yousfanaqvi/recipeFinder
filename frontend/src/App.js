@@ -11,6 +11,7 @@ import {BrowserRouter as Router, Routes,Route} from "react-router-dom"
 
 
 const App = () => {
+  console.log(process.env.REACT_APP_API_KEY);
   return (
     <Router basename='/'>
     <Nav/>
