@@ -95,7 +95,6 @@ form{
 }
 .recipe-card-container{
     width:100vw;
-    /* height: max-content; */
     background-image: url(../assets/bg3.jpeg);
     background-position: center center;
     background-repeat: no-repeat;

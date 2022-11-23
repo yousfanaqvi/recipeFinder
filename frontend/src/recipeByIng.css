@@ -1,10 +1,10 @@
 .byIngredient-container{
+    background-image:url(../assets/bg5-min.jpeg);
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center; 
     min-height: 100vh;
-    background-image:url(../assets/bg5.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;    
@@ -13,7 +13,7 @@
     
 }
 .byIngredient-container>h1{
-    padding-top: 4rem;
+    margin-top: 4rem;
 }
 .byIngredient-container>p{
     font-size: 20px;
@@ -51,11 +51,11 @@
     color: rgb(238, 18, 18);
 }
 .byIngDetail-container{
+    background-image:url(../assets/bg7.jpg);
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center; 
-    background-image:url(../assets/bg7.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;    

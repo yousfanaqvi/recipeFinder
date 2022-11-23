@@ -180,6 +180,8 @@
     }
     .home-container{
         padding: 0.5rem;
+        background-image:url(../assets/bg2Phone.jpeg);
+
     }
     
   }
