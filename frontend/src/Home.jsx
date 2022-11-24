@@ -69,6 +69,7 @@ function Home() {
     <Box sx={{ flexGrow: 1 }} >
         <Grid container  >
         <Grid xs={12} md={12} lg={12}>
+        <div className='background-home'></div>
         <div className='home-container' >
             <div className='heading'>
                 <h1>Find a Recipe</h1>

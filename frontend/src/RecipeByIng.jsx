@@ -29,6 +29,7 @@ function RecipeByIng() {
     <Box sx={{ flexGrow: 1 }} >
         <Grid container  >
         <Grid xs={12} md={12} lg={12}>
+        <div className='background-ingredients'></div>
         <div className='byIngredient-container'>
         <h1>Search Recipes by Ingredients</h1>
         <p>
