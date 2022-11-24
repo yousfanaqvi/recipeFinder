@@ -10,8 +10,7 @@
     background-size: cover;    
     background-attachment: fixed;
     width: 100vw;
-    position: relative;
-    
+    overflow: hidden;    
 }
 .byIngredient-container>h1{
     margin-top: 4rem;
