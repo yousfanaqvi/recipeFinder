@@ -9,7 +9,7 @@ function MealPlan() {
 
   return (
     <div>
-    <div>
+    <div className='background-mealplan'></div>
     <div className='recipe-card-container-mealplan'>
     <h1>Meal Plan</h1>
       <div className='macros-mealplan'>
@@ -27,7 +27,6 @@ function MealPlan() {
             return <Meal key={recipe.id} recipe={recipe} />
            })}
         </div>
-      </div>
     </div>
     
     

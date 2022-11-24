@@ -9,6 +9,7 @@ export default function Meal( ) {
     <Box sx={{ flexGrow: 1 }} >
     <Grid container  >
       <Grid xs={12} md={12} lg={12}>
+      <div className="background-nutrients"></div>
       <div className='recipe-card-container '>
       <h1>Recipes By Nutrients</h1>
       <h2>Click recipe title for instructions</h2>
