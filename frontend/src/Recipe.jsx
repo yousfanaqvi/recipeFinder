@@ -8,6 +8,7 @@ function Recipe() {
   console.log(state)
   return (
     <div>
+    <div className='recipe-container-background'></div>
     <div>
     <div className='recipe-container'>
     <h1>Search result for {state.query} </h1> 
