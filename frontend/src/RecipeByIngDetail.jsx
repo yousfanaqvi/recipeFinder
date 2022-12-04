@@ -20,7 +20,7 @@ function IngRecipeDetail() {
               {state.map((recipe,index) => (
               <div key={index} className='ing-content-container'>
                 <IngCard key={recipe.id} recipe={recipe} /> 
-                <div className='ing-content animate__animated animate__fadeInRight'> 
+                <div className='ing-content '> 
                 <div className='missed-container'> 
                   <h1>Required Ingredients</h1>
                   {recipe.missedIngredientCount!==0 ?

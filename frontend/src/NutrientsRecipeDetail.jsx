@@ -3,6 +3,8 @@ import { useLocation } from "react-router-dom";
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Unstable_Grid2';
 import "animate.css"
+import "./nutrients.css"
+
 export default function Meal( ) {
   const { state } = useLocation();
   return (
@@ -13,7 +15,7 @@ export default function Meal( ) {
       <div className='recipe-card-container '>
       <h1>Recipes By Nutrients</h1>
       <h2>Click recipe title for instructions</h2>
-        <div  className="cards animate__animated animate__backInDown" >
+        <div  className="cards" >
           {state.map(recipe => {
             return <RecipeCards key={recipe.id} recipe={recipe} />
            })}

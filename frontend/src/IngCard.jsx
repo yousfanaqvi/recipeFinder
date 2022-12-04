@@ -46,7 +46,7 @@ function IngCard({recipe}) {
 
   return (     
         <div  className='Ing-img-title'>
-        <Avatar src={recipeData.img} alt="recipe image" sx={{height:150 ,width:150, m:2}} />
+        <Avatar src={recipeData.img} alt="recipe image" sx={{height:100 ,width:100, m:2}} />
             <a href={recipeCard} className='goToRecipeLink' >{recipeData.title}</a>
         </div>
   )

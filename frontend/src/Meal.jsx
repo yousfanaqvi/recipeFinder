@@ -47,7 +47,7 @@ function RecipeCards({recipe}) {
   return (
     <div className='card-container'>        
         <div className='card-content-mealplan'>
-        <Avatar src={recipeData.img} alt="recipe image" sx={{height:150 ,width:150}} />
+        <Avatar src={recipeData.img} alt="recipe image" sx={{height:100 ,width:100}} />
             <div className='content'>
             <a href={recipeCard} className='goToRecipeLink' >{recipeData.title}</a>
             

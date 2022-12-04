@@ -57,14 +57,14 @@ function RecipeCards({recipe}) {
   return (
     <div className='card-container'>        
         <div className='card-content'>
-        <Avatar src={recipeData.img} alt="recipe image" sx={{height:150 ,width:150}} />
+        <Avatar src={recipeData.img} alt="recipe image" sx={{height:100 ,width:100}} />
             <div className='content'>
             <a href={recipeCard} className='goToRecipeLink' >{recipeData.title}</a>
                 <h3><span >Serving size:</span> {recipeData.servingSize} g</h3>
-                <h4><span className='nutrients-detail'>Calories:</span>  {recipeData.calories} Kcal</h4>
-                <h4><span className='nutrients-detail'>Fat:</span> {recipeData.fat} g</h4>
-                <h4><span className='nutrients-detail'>Carbohydrates:</span> {recipeData.carbs}g</h4>
-                <h4><span className='nutrients-detail'>Protein:</span>  {recipeData.protien} g</h4>
+                <h5><span className='nutrients-detail'>Calories:</span>  {recipeData.calories} Kcal</h5>
+                <h5><span className='nutrients-detail'>Fat:</span> {recipeData.fat} g</h5>
+                <h5><span className='nutrients-detail'>Carbohydrates:</span> {recipeData.carbs}g</h5>
+                <h5><span className='nutrients-detail'>Protein:</span>  {recipeData.protien} g</h5>
             </div>
             
         </div>

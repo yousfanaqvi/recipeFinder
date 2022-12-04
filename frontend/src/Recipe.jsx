@@ -12,7 +12,7 @@ function Recipe() {
     <div className='recipe-container'>
     <h1>Search result for {state.query} </h1> 
     <h4 >Click recipe title for instructions</h4>   
-        <div  className="cards-Recipe animate__animated animate__fadeIn" >
+        <div  className="cards-Recipe" >
           {state.items.results.map(recipe => {
             return <RecipeCards key={recipe.id} recipe={recipe} />
            })}

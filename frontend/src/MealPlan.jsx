@@ -22,7 +22,7 @@ function MealPlan() {
         </ul>
       </div>
     <h2>Click recipe title for instructions</h2>
-        <div  className="cards-mealplan animate__animated animate__backInDown" >
+        <div  className="cards-mealplan" >
           {state.items.meals.map(recipe => {
             return <Meal key={recipe.id} recipe={recipe} />
            })}
